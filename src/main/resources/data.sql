@@ -1,0 +1,16 @@
+INSERT INTO BOOK (author, title, genre, publication_year) VALUES
+('J.K. Rowling', 'Harry Potter and the Philosopher''s Stone', 'Fantasy', 1997),
+('George Orwell', '1984', 'Dystopian', 1949),
+('Harper Lee', 'To Kill a Mockingbird', 'Fiction', 1960),
+('J.R.R. Tolkien', 'The Lord of the Rings', 'Fantasy', 1954),
+('Mark Twain', 'The Adventures of Tom Sawyer', 'Adventure', 1876),
+('Jane Austen', 'Pride and Prejudice', 'Romance', 1813),
+('F. Scott Fitzgerald', 'The Great Gatsby', 'Fiction', 1925),
+('Leo Tolstoy', 'War and Peace', 'Historical Fiction', 1869),
+('Ernest Hemingway', 'The Old Man and the Sea', 'Adventure', 1952),
+('Agatha Christie', 'Murder on the Orient Express', 'Mystery', 1934),
+('Jules Verne', 'Twenty Thousand Leagues Under the Sea', 'Science Fiction', 1870),
+('Arthur Conan Doyle', 'The Adventures of Sherlock Holmes', 'Mystery', 1892),
+('Herman Melville', 'Moby Dick', 'Adventure', 1851),
+('Victor Hugo', 'Les Misérables', 'Drama', 1862),
+('Mary Shelley', 'Frankenstein', 'Gothic Fiction', 1818);

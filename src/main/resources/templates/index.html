@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Book Library</title>
+    <style>
+        h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            outline: 2px solid black;
+        }
+
+        td {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 <h1>Book Library</h1>
 
-<form th:action="@{/}" method="get">
-    <label>Szerző:</label>
-    <input type="text" name="author" th:value="${param.author}" />
-
-    <label>Cím:</label>
-    <input type="text" name="title" th:value="${param.title}" />
-
-    <label>Műfaj:</label>
-    <input type="text" name="genre" th:value="${param.genre}" />
-
-    <label>Kiadási év:</label>
-    <input type="number" name="publicationYear" th:value="${param.publicationYear}" />
-
-    <button type="submit">Szűrés</button>
-</form>
-
-<table>
+<table cellspacing="15">
     <thead>
     <tr>
         <th>Szerző</th>

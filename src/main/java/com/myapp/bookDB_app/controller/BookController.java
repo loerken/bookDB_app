@@ -31,7 +31,7 @@ public class BookController {
             books = bookService.getAllBooksSortedByAuthor();
         }
 
-        model.addAttribute("books", books);
+        model.addAttribute("books2", books);
         return "index";
     }
 }
